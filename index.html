@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  
+
+  <div class="main">
+      <!-- heading -->
+    <h1> My ToDo App</h1>
+
+    <!-- date -->
+  <h4 id="main"> </h4>
+
+<div>
+    <a> _____________________________________________________________________________________ </a>
+    
+</div>
+
+
+<div class="working">
+
+   <!-- input tag --> 
+   <input class="input" type="text " id="todo" placeholder="Enter what to do">
+
+
+     <!-- add button   -->
+    <button class="add" onclick="add_item()">  <i style=" font-size: xx-large"  class="fa fa-plus" aria-hidden="true"></i> </button>
+  
+
+<!-- delete all button -->
+    <button class="delAll"  onclick="delAll()"> <i style="font-size: xx-large;" class="fa fa-trash" aria-hidden="true"></i></button>
+
+
+</div>
+
+ 
+ 
+<!-- task heading -->
+    <div>
+        <h2 style="padding-top: 5px; color: white;">My Tasks</h2>
+    </div>
+
+
+
+ <!-- list -->
+    <div> 
+        <ul id="list">
+            
+        </ul>
+    </div>
+
+    
+</div>
+
+
+  
+    
+
+
+
+
+
+
+
+
+<script src="app.js"></script>
+  
+</body>
+</html>
+
